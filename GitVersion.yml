@@ -8,7 +8,7 @@ tag-prefix: 'v'
 branches:
   main:
     regex: main
-    increment: Patch
+    increment: None
     mode: ContinuousDelivery
     source-branches: ['main']
   stable:
